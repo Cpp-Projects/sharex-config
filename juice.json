@@ -1,0 +1,17 @@
+ {
+      "Name": "juice",
+      "DestinationType": "None",
+      "RequestType": "POST",
+      "RequestURL": "https://www.juice-200.ml/upload.php",
+      "FileFormName": "image",
+      "Arguments": {
+        "password": "no u"
+      },
+      "ResponseType": "Text",
+      "RegexList": [
+        "[^,]*$"
+      ],
+      "URL": "https://www.juice-200.ml/$1$",
+      "ThumbnailURL": null,
+      "DeletionURL": ""
+    }
